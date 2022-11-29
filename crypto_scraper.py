@@ -4,8 +4,7 @@ from prettytable import PrettyTable
 import pandas as pd
 import numpy as np
 
-api_key="pk_01d923271ccc49379073ef43f8a054ba"
-#api_key=os.environ.get("api_key")
+api_key=os.environ.get("api_key")
 
 class CryptoCurrency:
     all = []
