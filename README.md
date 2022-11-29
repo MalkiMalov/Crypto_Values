@@ -1,5 +1,5 @@
 # Crypto_Values
-This project shoes a table with currency crypto values.
+This project shows a table with currency crypto values.
 It builds in python with OOP, and use data from the iex.cloud web.
 
 # Additional Information
