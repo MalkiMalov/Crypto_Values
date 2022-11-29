@@ -18,5 +18,5 @@ $ set api_key=YOUR API TOKEN
 Then, you can run the main.py:
 
 ```
-python main.py
+$ python main.py
 ```
