@@ -3,11 +3,7 @@ import time
 import os
 
 
-if __name__ == '__main__':
-    """crypto1=CryptoCurrency(symbol="btcusd")
-    print(CryptoCurrency.all)
-    CryptoCurrency.show_prices('yellow')"""
-    
+if __name__ == '__main__':    
     crypto1=CryptoCurrency(symbol="btcusd")
     crypto2=CryptoCurrency(symbol="ethusd")
     while(True):
