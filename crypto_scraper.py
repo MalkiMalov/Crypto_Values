@@ -33,13 +33,14 @@ class CryptoCurrency:
      
     def add_prices_to_list(self):
         CryptoCurrency.prices.append(
-            [self.price, self.symbol]
+            [self.symbol, self.price]
         )
 
     @staticmethod
     def prices_table(col='base'):
-        pt=PrettyTable([f"{CryptoCurrency.colors[col]}Price{CryptoCurrency.colors['base']}",
-                        f"{CryptoCurrency.colors[col]}Crypto Name{CryptoCurrency.colors['base']}"])
+        pt=PrettyTable([f"{CryptoCurrency.colors[col]}Crypto Name{CryptoCurrency.colors['base']}",
+                        f"{CryptoCurrency.colors[col]}Price{CryptoCurrency.colors['base']}"
+                        ])
         pt.add_rows(CryptoCurrency.prices)
         return pt
     
