@@ -11,16 +11,12 @@ you can find it here: https://iexcloud.io/console/
 
 For windows, use this command:
 
-'''
-
-set api_key=YOUR API TOKEN
-
-'''
+```
+$ set api_key=YOUR API TOKEN
+```
 
 Then, you can run the main.py:
 
-'''
-
+```
 python main.py
-
-'''
+```
